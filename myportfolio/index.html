@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!---header-->
+    <header class="header">
+      <div class="nav-bar">
+        <div class="logo"></div>
+        <div class="nav-togel">
+          <label for="nav-ops" id="nav-ops-label">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+        </div>
+
+        <div class="nav-ops">
+          <a class="box" href="index.html">Home</a>
+          <a class="box" href="#main-me">About me</a>
+          <a class="box" href="#skill-sec">Skills</a>
+          <a class="box" href="#project-sec">Projects</a>
+          <a class="box" href="#contact-sec">Contact me</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="main-container1">
+          <div class="main-content">
+            <div class="mypic">
+              <h2>Ahsan Muneeb</h2>
+            </div>
+
+            <div class="sec-title">
+              <h1>You're welcome to join me.</h1>
+              <p>
+                Hi, I'm Ahsan Muneeb, a software engineer and web developer with
+                over 6 months of experience. I'm passionate about creating
+                beautiful and functional websites that solve problems. If you're
+                looking for a confident professional, you've found one right
+                here
+              </p>
+              <button id="contactbtn">
+                <a href="#contact-sec">Contact Me</a>
+              </button>
+              <button id="resumebtn">
+                <a href="documents/myresume.pdf" download="myresume.pdf"
+                  >Resume</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="sec-img"></div>
+        </div>
+      </section>
+
+      <!-- section of about me  -->
+      <section>
+        <div class="main-me" id="main-me">
+          <div class="me-content">
+            <h1>A Little About Me</h1>
+            <div id="aboutme-container2">
+              <p>
+                I am a software engineer who graduated from COMSATS University
+                Islamabad in June 2024. Currently, I work with Codsoft, where I
+                specialize in web development. With hands-on experience at
+                Codsoft, I have honed my skills in creating dynamic and
+                user-friendly websites. I am committed to delivering
+                high-quality solutions that meet the unique needs of clients
+              </p>
+              <div id="me-img-box"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skill-sec">
+        <div class="skillmain">
+          <h1>Web Development Skills</h1>
+          <div class="skill-container1">
+            <div class="skillname">
+              <div id="skill-img">
+                <h2>HTML</h2>
+                <img src="images/html.png" alt="" />
+              </div>
+              <div class="loader-container">
+                <div id="loader-container-color1"></div>
+              </div>
+              <h3>100%</h3>
+            </div>
+            <div class="skillname">
+              <div id="skill-img">
+                <h2>CSS</h2>
+                <img src="images/css2.png" alt="" />
+              </div>
+              <div class="loader-container">
+                <div id="loader-container-color2"></div>
+              </div>
+              <h3>100%</h3>
+            </div>
+            <div class="skillname">
+              <div id="skill-img">
+                <h2>Javascript</h2>
+                <img src="images/js.png" alt="" />
+              </div>
+              <div class="loader-container">
+                <div id="loader-container-color3"></div>
+              </div>
+              <h3>90%</h3>
+            </div>
+            <div class="skillname">
+              <div id="skill-img">
+                <h2>React JS</h2>
+                <img src="images/react.png" alt="" />
+              </div>
+              <div class="loader-container">
+                <div id="loader-container-color4"></div>
+              </div>
+              <h3>85%</h3>
+            </div>
+            <div class="skillname">
+              <div id="skill-img">
+                <h2>Bootstrap</h2>
+                <img src="images/boostrp.png" alt="" />
+              </div>
+              <div class="loader-container">
+                <div id="loader-container-color5"></div>
+              </div>
+              <h3>90%</h3>
+            </div>
+            <div class="skillname">
+              <div id="skill-img">
+                <h2>MongoDB</h2>
+                <img src="images/mongodb.png" alt="" />
+              </div>
+              <div class="loader-container">
+                <div id="loader-container-color6"></div>
+              </div>
+              <h3>85%</h3>
+            </div>
+            <div class="skillname">
+              <div id="skill-img">
+                <h2>MySql</h2>
+                <img src="images/sql.png" alt="" />
+              </div>
+              <div class="loader-container">
+                <div id="loader-container-color7"></div>
+              </div>
+              <h3>85%</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="project-sec">
+        <div class="projectmain">
+          <h1>My projects</h1>
+          <div id="prject-container">
+            <div id="projectname">
+              <a
+                id="mylink"
+                href="https://github.com/ahsanproo/Web-Projects/tree/9caff9ceb24f8b03fe248440a93ebb2d1d1b3a94/tictactoe"
+                ><img src="images/tixtac.png" alt="" />
+                <h2>Tic-Tac-Toe</h2></a
+              >
+            </div>
+            <div id="projectname">
+              <a
+                id="mylink"
+                href="https://github.com/ahsanproo/Web-Projects/tree/9caff9ceb24f8b03fe248440a93ebb2d1d1b3a94/rockpaper"
+                ><img src="images/rockpaper.png" alt="" />
+                <h2>Rock Paper Scissors</h2></a
+              >
+            </div>
+            <div id="projectname">
+              <a id="mylink" href=""
+                ><img src="images/website.png" alt="" />
+                <h2>Ecomerace web</h2></a
+              >
+            </div>
+            <div id="projectname">
+              <a id="mylink" href=""
+                ><img src="images/calculator.png" alt="" />
+                <h2>Calculator</h2></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- contact -->
+      <section id="contact-sec">
+        <div class="contact-main">
+          <h1>Contact Me</h1>
+          <div class="cont-main">
+            <div id="linkedin" class="contacts">
+              <a href="https://www.linkedin.com/in/ahsan-muneeb/">
+                <i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <div id="whatsapp" class="contacts">
+              <a href="http://wa.me/+923092916199">
+                <i class="fa-brands fa-whatsapp"> </i
+              ></a>
+            </div>
+            <div id="facebook" class="contacts">
+              <a href="https://web.facebook.com/ahsan.muneeb.50">
+                <i class="fa-brands fa-square-facebook"></i>
+              </a>
+            </div>
+            <div id="email" class="contacts">
+              <a href="mailto:ahsanmuneeb199@gmail.com">
+                <i class="fa-regular fa-envelope"></i
+              ></a>
+            </div>
+            <div id="github" class="contacts">
+              <a href="https://github.com/ahsanproo/">
+                <i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---footer-->
+
+      <footer class="footer">
+        <a href="index.html"
+          >© 2024 Ahsan Muneeb. All rights reserved. | Privacy Policy | Terms of
+          Service | Contact Us
+        </a>
+      </footer>
+    </main>
+  </body>
+</html>
